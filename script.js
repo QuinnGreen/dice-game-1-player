@@ -20,3 +20,9 @@ const diceRoller = () =>{
         document.getElementById("winLose").textContent = "Lose"  
     }
 }
+
+const reset = () => {
+    document.getElementById("rollResult").textContent = 0
+    document.getElementById("winLose").textContent = ""
+    total.textContent = 0
+}
