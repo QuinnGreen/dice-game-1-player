@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Dice Game (1 player)</h1>
-    <p>Roll a D6 and try to get a total of 20 without rolling a 1</p>
-    <button onclick="diceRoller()">Roll Dice</button>
-    <button onclick="reset()">Reset</button>
-    <p>Roll result = <span id="rollResult"></span></p>
-    <p>Total = <span id="total"></span></p>
-    <p><span id="winLose"></span></p>
-
+        <h1>Dice Game (1 player)</h1>
+        <p>Roll a D6 and try to get a total of 20 without rolling a 1</p>
+        <button onclick="diceRoller()">Roll Dice</button>
+        <button onclick="reset()">Reset</button>
+    <div class="gameResult">
+        
+        <p class="text">Roll result = </p>
+        <p class="icon"><span id="rollResult"></span></p>
+        <p class="text">Total = </p>
+        <p class="icon"><span id="total"></span></p>
+        <p class="text"></p>
+        <p class="icon"><span id="winLose"></span></p>
+    </div>
+    <div><img id="dice" src="dice 1.png" alt="Dice" srcset=""></div>
+    
     <script src="script.js"></script>
 </body>
 </html>
