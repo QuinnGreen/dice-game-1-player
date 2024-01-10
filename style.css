@@ -1,6 +1,6 @@
 .gameResult {
     display: flex;
-    background-color: aqua;
+    background-color: rgb(230, 232, 232);
     border-style: solid;
     justify-content: space-evenly;
     height: 50px;
